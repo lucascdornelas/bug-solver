@@ -1,6 +1,8 @@
 FROM ubuntu:latest
 
-RUN apt-get update  
+RUN apt-get update
+
+RUN apt install git -y
 
 RUN mkdir -p /agent_workspace
 
